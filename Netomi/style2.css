@@ -1,0 +1,23 @@
+div { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+   } 
+   iframe{ 
+    width: 300px; 
+    height: 3000px; 
+   } 
+   iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+  
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
